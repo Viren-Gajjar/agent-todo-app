@@ -1,10 +1,10 @@
 name: build-and-deploy
 on:
- push:
+   push:
     branches: [ "main" ]
   workflow_dispatch:
 
-permissions:
+per  missions:
   contents: write
   pages: write
   id-token: write
