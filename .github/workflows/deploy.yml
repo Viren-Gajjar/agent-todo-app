@@ -4,8 +4,8 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
-per  missions:
-  contents: write
+permissions:
+ contents: write
   pages: write
   id-token: write
 
